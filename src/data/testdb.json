@@ -1,0 +1,43 @@
+{
+    "users": [
+        {
+            "id": "ba466dc6-210c-41cb-91b8-77e40c40ccd3",
+            "username": "testinguser",
+            "email": "testing@abc.com",
+            "password": "test@111"
+        }
+    ],
+    "menu": [
+        {
+            "id": "f335347b-2f54-406c-9668-7ec742752e26",
+            "name": "White Sauce Pasta",
+            "description": "Italian white sauce pasta",
+            "price": 200,
+            "category": [
+                "italian",
+                "pasta",
+                "vegetarian"
+            ]
+        },
+        {
+            "id": "7dba5fb5-363d-4719-9738-0fa745289d7e",
+            "name": "Masala Pasta",
+            "description": "Indian style masala pasta",
+            "price": 175,
+            "category": [
+                "indian",
+                "pasta",
+                "vegetarian"
+            ]
+        }
+    ],
+    "cart": [
+        {
+            "id": "6bf95368-d420-4a06-85c8-3102874a5b54",
+            "userId": "ba466dc6-210c-41cb-91b8-77e40c40ccd3",
+            "items": []
+        }
+    ],
+    "orders": [],
+    "blacklistedTokens": []
+}
